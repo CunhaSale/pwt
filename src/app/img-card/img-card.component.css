@@ -16,7 +16,7 @@
     max-height: 350px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 398px) {
     .mat-card {
       width: 90%;
     }

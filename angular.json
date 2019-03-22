@@ -11,6 +11,9 @@
       "schematics": {},
       "architect": {
         "build": {
+          "apps": [{ 
+            "serviceWorker": true
+          }],
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/pwt",
