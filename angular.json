@@ -52,10 +52,10 @@
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 }
-              ]
+              ],
+              "serviceWorker": true
             }
-          },
-          "serviceWorker": true
+          }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
